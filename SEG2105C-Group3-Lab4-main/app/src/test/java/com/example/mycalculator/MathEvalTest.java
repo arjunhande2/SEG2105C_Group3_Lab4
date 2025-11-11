@@ -38,4 +38,8 @@ public class MathEvalTest {
         assertEquals("Error",MathEval.eval("(3+"));
     }
 
+    @Test
+    public void DedicatedFailTest() {
+        assertEquals("1",MathEval.eval("1+1"));
+    }
 }
